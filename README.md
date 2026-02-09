@@ -5,39 +5,25 @@ VisionED is a full-stack **Student Performance Prediction System** built using *
 This project was developed as a **Minor Project** for  
 **New Government Polytechnic, Patna-13 (NGP)**.
 
-The system predicts end-semester academic outcomes (marks and attendance) based on students' academic performance.  
+The system predicts end-semester academic outcomes (final marks and attendance) based on students' academic performance indicators.  
 The prediction model is trained using structured historical data (subject marks and attendance) from previous batches of students.
 
-VisionED provides a structured academic platform for administrators, teachers, and students. It includes model training, performance analysis, study material management, announcements, and academic query handling.
+VisionED provides a structured academic platform for administrators and students.
+It includes model training, performance analysis, study material management, announcements, and academic query handling.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Core Features
 
-### 👨‍🎓 For Students
-
-- 🤖 AI-powered end-semester marks & attendance prediction  
-- 📊 Performance analysis dashboard  
-- 📝 Input academic data (internal marks, previous semester marks, previous semester attendance)  
-- 📈 Real-time prediction results  
-- 📚 Access study materials uploaded by teachers  
-- 📢 View branch & semester specific announcements  
-- ❓ Submit academic queries  
-
----
-
-### 👨‍🏫 For Administrators / Teachers
-
-- 👥 Manage students and administrators (View / Edit / Delete)
-- 📂 Select Branch & Semester for model setup
-- 📥 Download system-generated structured CSV template
-- 🧠 Upload historical student data (marks + attendance)
-- 🔄 Train branch-specific ML models dynamically
-- 📚 Upload study materials for students
-- 📢 Post announcements
-- ❓ Respond to student queries
-- 📊 Monitor prediction analytics
-- 🛡 Super Admin verification system
+- AI-based prediction of End-Semester Marks and Attendance  
+- Branch & Semester specific academic analysis  
+- Profile completion-based secure dashboard access  
+- Structured CSV-based academic data upload system  
+- Study material upload and management by Admin  
+- Announcement management system  
+- Academic query submission and Admin response system  
+- Role-based access control (Student / Admin / Super Admin)  
+- Student performance analytics dashboard  
 
 ---
 
@@ -72,7 +58,7 @@ Admin selects **Branch & Semester**, downloads the structured template, fills pr
 ---
 
 ### 📊 Performance Analytics – Part 1
-Subject-wise prediction results generated using Random Forest Regression.
+Subject-wise prediction results generated using Random Forest Regressor.
 
 ![Performance Analysis 1](https://github.com/user-attachments/assets/9fe392da-4d74-4585-a3f5-3625c9a31302)
 
@@ -119,7 +105,7 @@ Admin interface to manage students and other administrators.
 
 ## 🤖 Machine Learning Approach
 
-The system uses a Random Forest Regressor to predict academic performance metrics.
+The system uses Scikit-learn’s Random Forest Regressor to model nonlinear relationships between academic performance indicators and final end-semester outcomes.
 
 ### 📥 Input Features
 - Previous Semester Marks
@@ -257,7 +243,7 @@ The following diagram illustrates how users navigate through the system and how 
 
 ![Workflow diagram](https://github.com/user-attachments/assets/23a00a5b-0e33-47ed-9945-04fdd4c3ac4a)
 
-### 👨‍🏫 Teacher / Administrator Workflow
+### 👨‍💼 Administrator Workflow
 
 #### 🔐 Step 1: Registration & Access
 1. Register using the provided Admin Code
@@ -296,7 +282,7 @@ Once uploaded successfully, the system becomes ready to generate predictions for
 
 ---
 
-#### 📚 Teacher Dashboard Capabilities
+#### 📚 Administrator Dashboard Capabilities
 
 After profile completion, teachers can:
 
@@ -336,7 +322,7 @@ Navigate to **Performance Analysis** and enter:
 
 1. Submit the academic inputs
 2. The system uses the trained Random Forest model
-3. 3. Predicted End-Semester Marks and End-Semester Attendance are displayed
+3. Predicted End-Semester Marks and End-Semester Attendance are displayed
 
 ---
 
@@ -345,7 +331,7 @@ Navigate to **Performance Analysis** and enter:
 After profile completion, students can:
 
 - 📊 Perform performance analysis
-- 📂 View & Download study materials uploaded by teachers
+- 📂 View & Download study materials uploaded by Admin
 - 📢 View announcements
 - ❓ Ask academic queries
 - 👍 Interact with posts (Like / Dislike / Reply)
@@ -358,10 +344,3 @@ VisionED aims to:
 - Provide AI-based insights
 - Improve academic decision making
 - Digitize academic analytics in institutions
-
----
-
-## 🏫 Academic Submission
-
-Developed as a Minor Project for  
-**New Government Polytechnic, Patna-13**
