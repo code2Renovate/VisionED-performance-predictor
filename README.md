@@ -344,3 +344,5 @@ VisionED aims to:
 - Provide AI-based insights
 - Improve academic decision making
 - Digitize academic analytics in institutions
+
+⭐ If you found this project useful, consider starring the repository.
