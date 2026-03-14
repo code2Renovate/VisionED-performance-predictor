@@ -1,5 +1,11 @@
 # 🎓 VisionED – AI-Powered Student Performance Predictor
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Library-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 VisionED is a full-stack **Student Performance Prediction System** built using **Flask** and **Machine Learning (Random Forest Regressor)**.
 
 This project was developed as a **Minor Project** for  
